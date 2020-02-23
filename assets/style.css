@@ -3,104 +3,124 @@ body {
     background-repeat: no-repeat;
     position:center; 
     background-attachment: fixed;
-    margin: 0px;
-    padding: 0px;
     box-sizing: content-box;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 24px;
-    background: url("..assets/pexels-photo-593158.jpeg");
-    /* font-color: ; */
-}
-.logo-wrapper {
-    background-color: lightblue;
-    height: 60px;
-    width: 237px;
-    display: inline-block;
+    line-height: 30px;
+    color: lightgrey;
 }
 
-header {
-    height: 60px;
-    overflow: auto;
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.image-container img {
-    float: left;
-    margin-right: 20px;
-    padding: 20px;
-    border: 1px solid lightblue;
-}
-
-.image-container h4 {
-    position: relative;
-}
-
-p {
-    padding: 5px;
-}
-
-.container {
-    width: auto;
-    margin: 0 auto;
+p:last-child {
     margin-bottom: 0px;
 }
 
-.main-container {
-    height: auto; 
-    max-width: 960px;
+h1, h2, p {
+    margin-bottom: 20px;
 }
 
-main {
-    background-color:#ffffff;
-    max-width: 960px;
-    margin: auto;
-    padding: 5px;
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: lightslategrey;
 }
-nav {
-    float: right;
-    padding: 10px;
-    font-size: 15px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
+
 h1 {
-    color: darkslategrey;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin: 0;
-    text-align: left;
-    padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 34px;
-    border-bottom: 5px solid lightblue;
-}
-.logo {
-    margin: 10px;
-    text-align: left;
-    padding: 10px;
-    color: #ffffff;
-    top: 15px;
-    position: relative;
-
+    font-size: 29px;
+    line-height: 48px;
+    border-bottom: 3px solid #777777;    
 }
 
 h2 {
-    font-size: 24px;
-}
-a {
-    color: #777777;
+    font-size: 22px;
 }
 
-.contianer {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 0 auto;
+#portfolio-head {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: whitesmoke;
+    background: whitesmoke;
+    border-bottom: 2px solid black;
 }
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: grey;
+    text-decoration: none;
+    border-left: 1 px solid #eeeeef;
+}
+
+nav a:hover {
+    color: lightsteelblue;
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: lightskyblue;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        float: none;
+        margin: auto;
+        text-align: center;
+        border-style: none;
+    }
+    a {
+        top: 0px;
+        margin: auto;
+    }
+    nav {
+        float: none;
+        margin-right: 0px;
+    }
+}
+
 footer {
     text-align: center;
     border-top: 8px solid lightblue;
     background-color: #666666;
     color: #eeeeef;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    height: 50px;
+}
 
+footer a {
+    float: right;
+    color: lightsteelblue;
+}
+
+footer a:hover {
+    color: whitesmoke;
+}
+
+h2 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    margin-bottom: 15px;
+    line-height: 22px;
 }
 
 .work {
@@ -135,4 +155,32 @@ footer {
     text-align: center;
     background: lightblue;
     border-bottom: 0;
+  }
+
+  #main-container {
+      padding-top: 130px;
+      min-height: calc(100vh - 70px);
+  }
+
+  .sub-container {
+    align-content: center;  
+    text-align: center;
+
+  }
+
+  .main-section {
+      max-width: 960px;
+      width: 100%;
+      margin: 0 0 40px;
+      padding: 30px;
+      background: #eeeeef;
+      float: left;
+      border: 1 px solid gray;
+  }
+
+  .auth-image {
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+      float: left;
   }
