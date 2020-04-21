@@ -13,12 +13,12 @@ The color and background reflects my favorite colors and the program that taught
 This page includes a descripition about me such as my interests, background, and resume
 
 
-<img width="1440" alt="Screen Shot 2020-02-26 at 12 20 52 PM" src="https://user-images.githubusercontent.com/58318559/75374237-e137ea00-5899-11ea-97e0-48f1d133c46c.png">
+<img width="1440" alt="Screen Shot 2020-04-20 at 7 22 51 PM" src="https://user-images.githubusercontent.com/58318559/79813507-db1a3300-8349-11ea-8de0-999382707af4.png">
 
 This page had my projects with screenshots, links to the apps, and my github code of each app.
 
 
-<img width="1440" alt="Screen Shot 2020-04-20 at 7 22 51 PM" src="https://user-images.githubusercontent.com/58318559/79809308-039c3000-833e-11ea-9371-53685c60e97f.png">
+<mg width="1440" alt="Screen Shot 2020-04-20 at 8 56 34 PM" src="https://user-images.githubusercontent.com/58318559/79813395-87a7e500-8349-11ea-97df-b79a6ded1019.png">
 
 This page includes information on contacting with social media accounts or phone number. It also includes my github link to view my projects.
 
