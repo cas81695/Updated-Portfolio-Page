@@ -18,7 +18,7 @@ This page includes a descripition about me such as my interests, background, and
 This page had my projects with screenshots, links to the apps, and my github code of each app.
 
 
-<img width="1440" alt="Screen Shot 2020-02-26 at 12 21 05 PM" src="https://user-images.githubusercontent.com/58318559/75374261-ee54d900-5899-11ea-8184-2ae5840946bb.png">
+<img width="1440" alt="Screen Shot 2020-04-20 at 7 22 51 PM" src="https://user-images.githubusercontent.com/58318559/79809308-039c3000-833e-11ea-9371-53685c60e97f.png">
 
 This page includes information on contacting with social media accounts or phone number. It also includes my github link to view my projects.
 
